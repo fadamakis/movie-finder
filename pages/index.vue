@@ -1,7 +1,7 @@
 <template>
   <div class="h-screen flex justify-center items-center text-center">
     <div class="container mx-auto">
-      <h1 class="text-4xl lg:text-6xl">Movie Finder</h1>
+      <h1 class="p-3 text-blue-600 text-4xl lg:text-6xl">Movie Finder</h1>
       <div class="relative max-w-3xl mx-auto px-6">
         <div class="absolute h-10 mt-1 left-0 top-0 flex items-center pl-10">
           <svg
