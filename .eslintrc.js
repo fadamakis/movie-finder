@@ -18,5 +18,6 @@ module.exports = {
   // add your custom rules here
   rules: {
     'linebreak-style': 0,
+    'end-of-line': 0,
   },
 }
