@@ -24,7 +24,7 @@ export default {
   },
   async mounted() {
     this.results = await fetch(
-      `http://www.omdbapi.com/?apikey=${process.env.omdbApiKey}&s=${this.$route.query.searchTerm}&type=movie`
+      `//www.omdbapi.com/?apikey=${process.env.omdbApiKey}&s=${this.$route.query.searchTerm}&type=movie`
     ).then((res) => res.json())
   },
 }
