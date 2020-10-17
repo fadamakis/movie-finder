@@ -7,17 +7,13 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore . --fix",
     "lint": "npm run lint:js",
     "test": "jest"
   },
   "lint-staged": {
     "*.{js,vue}": "eslint"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -39,6 +35,7 @@
     "jest": "^26.5.0",
     "lint-staged": "^10.4.0",
     "prettier": "^2.1.2",
-    "vue-jest": "^3.0.4"
+    "vue-jest": "^3.0.4",
+    "vue-slick-carousel": "^1.0.6"
   }
 }

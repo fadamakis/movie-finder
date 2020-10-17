@@ -1,4 +1,7 @@
-# movie-finder
+# Movie Finder - Hacktoberfest Project
+
+## This is a playgroung project for [Hacktoberfest](https://hacktoberfest.digitalocean.com/) to learn about [Nuxt.js](https://nuxtjs.org) and [Tailwind css](https://tailwindcss.com/).
+
 
 ## Build Setup
 
@@ -16,5 +19,3 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
